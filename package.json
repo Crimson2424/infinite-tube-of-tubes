@@ -1,0 +1,25 @@
+{
+  "name": "offscreen-three-template",
+  "author": {
+    "name": "Daniel Velasquez",
+    "email": "velasquezdanield@gmail.com",
+    "url": "https://offscreencanvas.com/"
+  },
+  "homepage": "https://offscreencanvas.com/",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "gsap": "^3.12.2",
+    "three": "^0.155.0",
+    "vite-plugin-glslify": "^2.0.2"
+  }
+}
